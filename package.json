@@ -1,14 +1,18 @@
 {
   "name": "minimist-decorators",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "homepage": "https://github.com/Serabass/minimist-decorators",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "example": "ts-node example/index.ts",
+    "build": "tsc -p ./src"
   },
   "dependencies": {
     "@types/jest": "^25.1.4",
     "@types/minimist": "^1.2.0",
+    "@types/reflect-metadata": "^0.1.0",
     "jest": "^25.1.0",
     "minimist": "^1.2.5",
     "reflect-metadata": "^0.1.13",

@@ -1,5 +1,5 @@
 import minimist from 'minimist';
-import {ARGS_KEY} from './index';
+import {ARGS_KEY} from './common';
 
 export function Arg(shortName?: string): PropertyDecorator {
     return (target: Object, propertyKey: string | symbol) => {

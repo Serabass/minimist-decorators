@@ -1,5 +1,5 @@
 import minimist from 'minimist';
-import {ARGS_KEY} from './index';
+import {ARGS_KEY} from './common';
 
 export function Args(argsData: string[] = process.argv): ClassDecorator {
     return (target: any) => {

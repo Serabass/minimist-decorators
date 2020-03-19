@@ -1,4 +1,5 @@
-export const ARGS_KEY = '__args';
+
+import 'reflect-metadata';
 
 export * from './args';
 export * from './arg';
