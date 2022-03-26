@@ -11,7 +11,7 @@
     "build": "tsc -p ./src"
   },
   "dependencies": {
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "reflect-metadata": "^0.1.13",
     "typescript": "^3.8.3"
   },
